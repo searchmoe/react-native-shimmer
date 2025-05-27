@@ -1,6 +1,6 @@
 {
-  "name": "react-native-shimmer",
-  "version": "0.6.0",
+  "name": "@searchmoe/react-native-shimmer",
+  "version": "0.7.0",
   "description": "Simple shimmering effect in React Native",
   "main": "index.js",
   "scripts": {
@@ -21,17 +21,23 @@
     "spinner",
     "animation"
   ],
-  "author": {
-    "name": "Joel Arvidsson",
-    "email": "joel@oblador.se"
-  },
-  "homepage": "https://github.com/oblador/react-native-shimmer",
+  "authors": [
+    {
+      "name": "Joel Arvidsson",
+      "email": "joel@oblador.se"
+    }, 
+    {
+      "name": "Kompose",
+      "email": "dev@kompose.app"
+    }
+  ],
+  "homepage": "https://github.com/searchmoe/react-native-shimmer",
   "bugs": {
-    "url": "https://github.com/oblador/react-native-shimmer/issues"
+    "url": "https://github.com/searchmoe/react-native-shimmer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/oblador/react-native-shimmer.git"
+    "url": "git://github.com/searchmoe/react-native-shimmer.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -49,7 +55,5 @@
     "react": "*",
     "react-native": "*"
   },
-  "dependencies": {
-    "prop-types": "^15.6.0"
-  }
+  "dependencies": {}
 }

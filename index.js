@@ -1,22 +1,7 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { requireNativeComponent } from 'react-native';
 
 export default class Shimmer extends Component {
-  static propTypes = {
-    animating: PropTypes.bool,
-    direction: PropTypes.oneOf(['up', 'down', 'left', 'right']),
-    duration: PropTypes.number,
-    pauseDuration: PropTypes.number,
-    animationOpacity: PropTypes.number,
-    opacity: PropTypes.number,
-    tilt: PropTypes.number,
-    intensity: PropTypes.number,
-    highlightLength: PropTypes.number,
-    beginFadeDuration: PropTypes.number,
-    endFadeDuration: PropTypes.number,
-  };
-
   static defaultProps = {
     animating: true,
     animationOpacity: 1,
